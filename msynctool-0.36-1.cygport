@@ -1,0 +1,9 @@
+DESCRIPTION="OpenSync CLI tool"
+HOMEPAGE="http://www.opensync.org/"
+SRC_URI="http://www.opensync.org/download/releases/${PV}/${P}.tar.bz2"
+
+src_compile() {
+	cd ${B}
+	cygcmake
+	cygmake
+}
