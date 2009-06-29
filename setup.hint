@@ -1,4 +1,4 @@
 category: Utils
-requires: cygwin glib2 libopensync0
+requires: glib2 libopensync0
 sdesc: "OpenSync command-line interface"
 ldesc: "Command-line interface to the OpenSync synchronization framework"
